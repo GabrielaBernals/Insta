@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans";
+}
+
+
+header.main {
+  height: 80px;
+  width: 100%;
+  border: 1px solid rgb(105, 105, 105);
+  /* poner la línea de borde abajo */
+
+}
+.main .logo {
+  width: 30%;
+  height: inherit;
+  font-size: 40px;
+  /* line-height: 80px;    ---- para posicionar el elemento 80px desde arriba,
+  si hay un elemento abajo lo va a recorrer --- comand + shift + 7 es para COMENTAR*/
+  padding: 20px;
+  float: left;
+}
+
+
+.logo span {
+  font-size: 30px;
+}
+.main nav >ul {
+  height: inherit;
+  float: right;
+  width: 30%;
+  list-style: none;
+}
+.main nav > ul >li {
+  width: 33.33%;
+  float: left;
+  height: inherit;
+  text-align: center;
+  font-size: 30px;
+  padding: 15px;
+}
